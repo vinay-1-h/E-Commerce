@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "280E5005-43D3-4792-8AB0-01F78E6EE7C1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F7DD5B6-933D-4884-900F-3BD3E0E42413"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Product/Json/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadData(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F7DD5B6-933D-4884-900F-3BD3E0E42413 - 7d09ae4acc2e1ea4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.DataHandler.loadData(completion: (Swift.Result&lt;Product.Welcome, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "9F7DD5B6-933D-4884-900F-3BD3E0E42413 - 7d09ae4acc2e1ea4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.DataHandler.loadData(completion: (Swift.Result&lt;Product.Welcome, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "316">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C53AB212-2366-4CEE-9D83-47613B45B8F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Product/Json/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "DataHandler"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C53AB212-2366-4CEE-9D83-47613B45B8F2 - 108ea2a10757a8e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ExampleJson2KtSwift.init(from: Swift.Decoder) throws -&gt; Product.ExampleJson2KtSwift"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "C53AB212-2366-4CEE-9D83-47613B45B8F2 - fbf0f93e80f3900d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ExampleJson2KtSwift.init() -&gt; Product.ExampleJson2KtSwift"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "C53AB212-2366-4CEE-9D83-47613B45B8F2 - eb8bca9a28d55bf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.DataHandler.deinit"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "C53AB212-2366-4CEE-9D83-47613B45B8F2 - 1e7655dc9d1697e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.DataHandler.__deallocating_deinit"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/Json/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Product/CollectioCell/ProductCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "productName"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - e4bce78dec5ef82b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.getter : Swift.Optional&lt;Product.Welcome&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 54aef201e819943f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.setter : Swift.Optional&lt;Product.Welcome&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a0d9d2914fd39eba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.modify : Swift.Optional&lt;Product.Welcome&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a56d778b5ec019c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.modify : Swift.Optional&lt;Product.Welcome&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 7465a9a3fdf64d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Product.ProductCollectionViewCell"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a88bd51090e0ca4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Product.ProductCollectionViewCell&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 375bed67745b0d47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.getter : Swift.Optional&lt;Product.ExampleJson2KtSwift&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 25a94b880c11a95b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.setter : Swift.Optional&lt;Product.ExampleJson2KtSwift&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - e8f22d4acd9285de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.modify : Swift.Optional&lt;Product.ExampleJson2KtSwift&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - e7f919e3f85c8fa0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.res.modify : Swift.Optional&lt;Product.ExampleJson2KtSwift&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 7465a9a3fdf64d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Product.ProductCollectionViewCell"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a88bd51090e0ca4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Product.ProductCollectionViewCell&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 7465a9a3fdf64d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Product.ProductCollectionViewCell"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a88bd51090e0ca4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Product.ProductCollectionViewCell&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 7465a9a3fdf64d4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Product.ProductCollectionViewCell"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a88bd51090e0ca4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Product.ProductCollectionViewCell&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 12e55891654aa977"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.favotiBtn.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - d4e17e609724790b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.favotiBtn.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 4a94c0ed876776ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.favotiBtn.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 9154183bbbec5818"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.favotiBtn.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - 7465a9a3fdf64d0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(frame: __C.CGRect) -&gt; Product.ProductCollectionViewCell"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "1F182682-2D6E-4EA1-AFC3-A70299C686BF - a88bd51090e0ca08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Product.ProductCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Product.ProductCollectionViewCell&gt;"
+                  moduleName = "Product"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vi/Desktop/Product/Product/CollectioCell/ProductCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A304658-E309-4AEF-B815-5580F385F8EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Product/CollectioCell/CartDetailsTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "CartDetailsTableViewCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
