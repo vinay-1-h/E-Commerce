@@ -15,47 +15,22 @@ import Foundation
 //   let welcome = try? JSONDecoder().decode(Welcome.self, from: jsonData)
 
 
-// MARK: - Welcome
-struct Welcome: Decodable {
-    let status: Bool
-    let message: String
-    let categories: [Category]
-}
-
-// MARK: - Category
-struct Category: Decodable {
-    let id: Int
-    let name: String
-    let items: [Item]
-}
-
-// MARK: - Item
-struct Item: Decodable {
-    let id: Int
-    let name: String
-    let icon: String
-    let price: Double
-}
 
 
 class DataHandler {
-    
     init() {
-        
     }
     
-    func loadData() {
+    func loadData(completion: @escaping(Result<Welcome,Error>)->Void) {
         let path = Bundle.main.path(forResource: "shopping", ofType: "json")
         let url = URL(fileURLWithPath: path!)
         do {
             let data = try? Data(contentsOf: url)
-            let res = try JSONDecoder().decode([Welcome].self, from: data!)
-            print(res.first?.categories.first?.name)
+            let res = try JSONDecoder().decode(Welcome.self, from: data!)
+            completion(.success(res))
         } catch {
             
         }
     }
-    
-    
 }
 

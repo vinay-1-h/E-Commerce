@@ -18,6 +18,8 @@ extension Datas {
 
     @NSManaged public var name: String?
     @NSManaged public var price: Double
+    @NSManaged public var img: String?
+    
 
 }
 

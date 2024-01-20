@@ -1,24 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Product" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUY-tr-wKt">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="98"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="IWn-ow-0ha">
+                                        <rect key="frame" x="0.0" y="58" width="386.33333333333331" height="34.333333333333343"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02B-FE-s4d">
+                                                <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="34.333333333333336"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="person.crop.circle.fill" catalog="system"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="My Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixp-Mm-ZSo">
+                                                <rect key="frame" x="93.666666666666657" y="0.0" width="103.66666666666666" height="34.333333333333336"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdK-i7-IGg">
+                                                <rect key="frame" x="241.33333333333334" y="0.0" width="50.666666666666657" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="heart.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="cartDetals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zDm-sV-swt"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pb2-Pj-mb3">
+                                                <rect key="frame" x="336" y="0.0" width="50.333333333333314" height="34.333333333333336"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="cart.badge.plus.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="deatails:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0d0-BB-d21"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.76862752440000004" green="0.57254904510000004" blue="0.34509804840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="IWn-ow-0ha" firstAttribute="top" secondItem="oUY-tr-wKt" secondAttribute="top" constant="58" id="3tp-mX-SCt"/>
+                                    <constraint firstAttribute="trailing" secondItem="IWn-ow-0ha" secondAttribute="trailing" constant="6.6699999999999999" id="DKU-hY-tLD"/>
+                                    <constraint firstItem="IWn-ow-0ha" firstAttribute="leading" secondItem="oUY-tr-wKt" secondAttribute="leading" id="Is9-vR-hne"/>
+                                    <constraint firstAttribute="bottom" secondItem="IWn-ow-0ha" secondAttribute="bottom" constant="5.6699999999999999" id="Lg6-F2-Z8K"/>
+                                    <constraint firstAttribute="height" constant="98" id="dWp-nC-pgD"/>
+                                    <constraint firstAttribute="width" constant="393" id="peB-RY-5IA"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ewg-Rs-I0W">
+                                <rect key="frame" x="0.0" y="98" width="393" height="720"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="J2Y-g4-xle"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Nfb-3l-qZp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oUY-tr-wKt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XhT-72-J3r"/>
+                            <constraint firstItem="ewg-Rs-I0W" firstAttribute="top" secondItem="oUY-tr-wKt" secondAttribute="bottom" id="hbo-5z-bbo"/>
+                            <constraint firstItem="oUY-tr-wKt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="i8i-BU-Sm4"/>
+                            <constraint firstItem="ewg-Rs-I0W" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jdc-dw-kLe"/>
+                            <constraint firstItem="ewg-Rs-I0W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sbT-wA-CO4"/>
+                            <constraint firstItem="oUY-tr-wKt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="scT-YG-iP6"/>
+                            <constraint firstItem="ewg-Rs-I0W" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="u0X-Il-nAK"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="GMp-pS-HDH"/>
+                    <connections>
+                        <outlet property="cartbtn" destination="pb2-Pj-mb3" id="MWF-tX-H5O"/>
+                        <outlet property="favoritebtn" destination="QdK-i7-IGg" id="F4Y-fV-J8a"/>
+                        <outlet property="profilebtn" destination="02B-FE-s4d" id="eWn-Fu-ipX"/>
+                        <outlet property="tableView" destination="ewg-Rs-I0W" id="9wK-xk-CqI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1055.7251908396945" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cart.badge.plus.fill" catalog="system" width="128" height="106"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
