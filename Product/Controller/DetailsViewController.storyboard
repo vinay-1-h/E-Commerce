@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Details View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DetailsViewController" customModule="Product" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="FPS-EE-ZfW">
+                                <rect key="frame" x="0.0" y="102" width="393" height="716"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="MRD-P9-NlV"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="6X5-aO-eRt"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j1l-Nu-DXe">
+                                <rect key="frame" x="15.999999999999996" y="67" width="49.666666666666657" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="multiply.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="PuJ-Zg-6O8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorite" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZ6-Fr-iFr">
+                                <rect key="frame" x="128" y="74" width="149" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3Z3-uH-D7g"/>
+                                    <constraint firstAttribute="width" constant="149" id="fn9-SS-kKs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.76470589639999997" green="0.56862747670000002" blue="0.34509804840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="aZ6-Fr-iFr" firstAttribute="leading" secondItem="j1l-Nu-DXe" secondAttribute="trailing" constant="62.329999999999998" id="7J2-rr-av8"/>
+                            <constraint firstItem="FPS-EE-ZfW" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="8Rx-Iv-Iir"/>
+                            <constraint firstItem="j1l-Nu-DXe" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="GIe-zF-5VV"/>
+                            <constraint firstItem="aZ6-Fr-iFr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="15" id="X9n-9y-vkv"/>
+                            <constraint firstItem="FPS-EE-ZfW" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="eRa-ee-Rnw"/>
+                            <constraint firstItem="j1l-Nu-DXe" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leadingMargin" id="jLN-Nt-KYg"/>
+                            <constraint firstAttribute="trailing" secondItem="FPS-EE-ZfW" secondAttribute="trailing" id="kjh-Wz-Hjh"/>
+                            <constraint firstItem="FPS-EE-ZfW" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="43" id="ylC-7n-Umk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closebtn" destination="j1l-Nu-DXe" id="wRY-hJ-8U1"/>
+                        <outlet property="detailsTableView" destination="FPS-EE-ZfW" id="apL-qH-FHc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="43.511450381679388" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="multiply.circle" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
